@@ -43,6 +43,7 @@ height: 600px;
     justify-content: center;
 }
 .variable{
+    width:100%;
     margin-top: 15px;
 }
 .variable p{
@@ -52,6 +53,7 @@ height: 600px;
 .variable input{
     border-radius: 10px;
     padding:8px;
+    
     border: 1px solid  rgb(206, 206, 206);
 }
 
