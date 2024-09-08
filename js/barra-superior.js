@@ -22,7 +22,10 @@ let barra =    `     <div class="barra-superior">
         </div>
         
         </div>`
-        var menu =   `       <div id="menu-lateral">
+
+
+
+  var menu =   `       <div id="menu-lateral">
         <div class="menu-Content">
         <div class="items">
           <p id="username">ANDRES GOMEZ Niño</p>
@@ -40,24 +43,30 @@ let barra =    `     <div class="barra-superior">
             Modulos
         </div>
         <div class="items">
-            Nits
+          <i class="fa-solid fa-people-group"></i>  Nits
         </div>
         <div class="items">
+        <i class="fa-solid fa-box"></i>
             Articulos
          </div>
         <div class="items">
+        <i class="fa-solid fa-cart-shopping"></i>
            Compras
         </div>
         <div class="items">
+        <i class="fa-solid fa-money-bills"></i>
          Facturación
          </div>
          <div class="items">
+         <i class="fa-solid fa-arrow-right-arrow-left"></i>
           Devoluciones
          </div>
          <div class="items">
+         <i class="fa-solid fa-check-to-slot"></i>
             Recibos de caja
            </div>
            <div class="items">
+           <i class="fa-solid fa-cart-flatbed"></i>
             Ajuste de inventario
            </div>
          <div class="tituloitem">

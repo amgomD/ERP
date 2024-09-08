@@ -1,0 +1,54 @@
+
+.contenedor-cards{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    overflow: scroll;
+margin-top: 20px;
+ padding-bottom: 20px;
+    scrollbar-width: 1px;
+}
+
+
+.card{
+ display: flex;
+ flex-direction: column;
+ padding: 10px;
+ background-color: white;
+ border: 1px solid rgb(230, 230, 230);
+ border-radius: 10px;
+ min-width: 350px;
+ box-sizing: border-box;
+ width: fit-content;
+}
+
+.card-encabezado{
+font-weight: 600;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+.card-cuerpo{
+font-size: 13px;
+color: #636363;
+display: flex;
+justify-content: start;
+align-items: start;
+flex-wrap: wrap;
+text-align: start;
+width: fit-content;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.card-cuerpo p{
+    flex: 1 1 40%;
+}
+
+.card-pie{
+display: flex;
+gap: 10px;
+justify-content: space-between;
+}
+

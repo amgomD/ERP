@@ -1,0 +1,39 @@
+.caja-linea{
+    border: 1px solid  #5873D5;;
+    border-radius: 10px;
+    font-size: 13px;
+    width:fit-content;
+    text-wrap: nowrap;
+    color: #5873D5;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+
+.fecha-der{
+font-size: 10px;
+font-style: italic;
+width: 100%;
+display: flex;
+justify-content: end;
+margin-top: 10px;
+color: #636363;
+}
+
+.item-estado{
+background-color: rgba(172, 255, 47, 0.425);
+color: rgb(6, 85, 6);
+font-size: 10px;
+width: fit-content;
+padding: 5px;
+border-radius: 5px;
+}
+
+
+.valor{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
