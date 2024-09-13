@@ -1,0 +1,325 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #F7F8FC ;
+}
+button{
+    cursor: pointer;
+}
+
+.sup-15px{
+    color: #707070;
+    font-size: 12px;
+}
+.contenedor-principal{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.contenedor-libre{
+   padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    height: fit-content;
+    }
+
+
+.contenedor-secundario{
+border: 1px solid rgb(236, 236, 236);
+padding: 20px;
+background-color: white;
+border-radius: 8px;
+width: 350px;
+height: 600px;
+}
+
+.titulo{
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+.formulario{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 10px;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+.variable{
+    width:100%;
+    margin-top: 15px;
+}
+.variable p{
+    color: rgb(161, 161, 161);
+    font-size: 13px;
+}
+.variable input{
+    border-radius: 10px;
+    padding:8px;
+    
+    border: 1px solid  rgb(206, 206, 206);
+}
+
+.btn-solid{
+    width: 100%;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #5873D5;
+    color: white;
+        text-wrap: nowrap;
+    font-size: 15px;
+    margin-top: 15px;
+    border: 0px solid  rgb(206, 206, 206); 
+}
+.subtitulo{
+    font-size: 15px;
+    color: rgb(168, 168, 168);
+    text-align: center;
+}
+.img-text{
+    /*para alinear texto con imagen*/
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+}
+.img-30{
+    width: 30px;
+}
+.img-45{
+    width: 44px;
+}
+
+.img-55{
+    width: 55px;
+}
+
+.barra-superior{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    position: fixed;
+    background-color: #ffffff;
+    height: 60px;
+    border-bottom:1px solid  rgba(224, 224, 224, 0.63);
+    padding: 10px;
+    margin-bottom: 60px;
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0; /* Posición en la parte superior */
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho de la página */
+
+    z-index: 1000; /* Asegura que la barra esté por encima de otros elementos */
+}
+.ladoizq{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    padding-left: 20px;
+width:100%;
+}
+.menu{
+cursor: pointer;
+}
+#closemenu{
+    cursor: pointer;
+    font-size: 22px;
+    display: none;
+}
+.centro{
+    width:100%;
+    background-color: rgb(217, 215, 250);
+}
+.ladoder{
+    width:100%;
+    background-color: rgb(215, 237, 250);
+}
+.logo-texto{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+
+.cuerpo{
+        width: 100%;
+    margin-top: 60px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-lateral {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Inicialmente fuera de la vista */
+    width: 240px;
+    height: 100%;
+    background-color: #ffffff00;
+    color: rgb(48, 48, 48);
+    padding-top: 60px;
+    box-sizing: border-box;
+    z-index: 1000;
+    
+    transition: left 0.1s ease-in; /* Animación de deslizamiento */
+}
+.menu-Content{
+    margin-top: 10px;
+    padding: 10px;
+    min-height: 700px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.041);
+    border-top-right-radius: 5px;
+    border-right: #d3d3d318 solid 0.1px;
+    border-bottom-right-radius: 5px
+}
+
+#menu-lateral a {
+    display: block;
+    color: rgb(48, 48, 48);
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.items:hover {
+    background-color:#b1c2ff2f;
+    border: 1px solid  #4360c9;
+    color: #344fb1;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+.items{
+    color: rgb(48, 48, 48);
+    display:  flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 10px;
+    font-size: 13px;
+    align-items: center;
+    white-space: nowrap;
+  min-width: 0px;
+  padding: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.items p{
+  
+    white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+    overflow: hidden; /* Oculta el texto que se desborda del contenedor */
+    text-overflow: ellipsis;
+    width: 150px;
+}
+.items i{
+    color: rgb(138, 138, 138);
+}
+
+.iconstem{
+      color: rgb(138, 138, 138);
+}
+
+.perfil{
+
+    display:  flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.perfil p{
+    font-size: 14px;
+    white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+    overflow: hidden; /* Oculta el texto que se desborda del contenedor */
+    text-overflow: ellipsis;
+    width: 150px;
+}
+.perfil img{
+width: 20px;
+}
+#perfil-flecha{
+    color: rgb(138, 138, 138);
+font-size: 10px;
+}
+
+.tituloitem{
+    margin-top: 20px;
+    color: rgb(138, 138, 138);
+    font-size: 12px; 
+}
+
+
+.dashboard {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+    grid-gap: 10px; /* Espacio entre los elementos */
+}
+
+/* Primera fila */
+.itemsubtitulo{
+    font-weight: 400;
+    color: #707070;
+}
+.item1 {
+    grid-column: span 3; /* Abarca 3 columnas */
+    border: 1px solid rgb(236, 236, 236);
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+    text-align: start;
+}
+
+.item2 {
+    grid-column: span 1; /* Abarca 1 columna */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: start;
+}
+
+/* Segunda fila */
+.item3 {
+    grid-column: span 2; /* Abarca 2 columnas */
+    border: 1px solid rgb(236, 236, 236);
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+    text-align: start;
+}
+
+.item4 {
+    grid-column: span 1; /* Abarca 1 columna */
+    border: 1px solid rgb(236, 236, 236);
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+    text-align: start;
+}
+
+.item5 {
+    grid-column: span 1; /* Abarca 1 columna */
+    border: 1px solid rgb(236, 236, 236);
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+    text-align: start;
+}
