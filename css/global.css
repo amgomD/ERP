@@ -15,6 +15,7 @@ button{
     color: #707070;
     font-size: 12px;
 }
+
 .contenedor-principal{
     justify-content: center;
     align-items: center;
@@ -38,6 +39,15 @@ background-color: white;
 border-radius: 8px;
 width: 350px;
 height: 600px;
+}
+
+.contenedor-secundario_Horizontal{
+    border: 1px solid rgb(236, 236, 236);
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    width: 50%;
+    height: 80%;
 }
 
 .titulo{
@@ -68,6 +78,8 @@ height: 600px;
     
     border: 1px solid  rgb(206, 206, 206);
 }
+
+
 
 .btn-solid{
     width: 100%;
